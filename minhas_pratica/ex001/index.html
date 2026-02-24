@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso em video</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        h1, h2 {
+            color: white;
+        }
+        header {
+            background-color: #4949A3;
+            padding: 20px;
+            text-align: center;
+        }
+        main {
+            background-color: #7778A4;
+            padding: 20px;
+            width: 800px;
+            height: 400px;
+            margin: auto;
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+            border-bottom-left-radius: 20px;
+            border-bottom-right-radius: 20px;
+        }
+        div {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            min-width: 800px;
+            margin-top: 20px;
+        }
+        #video0,#video1, #video2, #video3 {
+            border: 2px solid #333;
+            margin: 3px;
+            width: 280px;
+            border-radius: 10px;
+            transition: transform 0.5s ease;
+        }
+        #video0:hover, #video1:hover, #video2:hover, #video3:hover {
+            transform: scale(1.05);
+            border: yellow solid 2px;
+        }
+        body {
+            min-width: 800px;
+            background-color: bisque;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Guia de estudos</h1>
+        <p>lista desses cursos e marcar apos conclusão</p>
+    </header>
+    <main>
+        <h2>Cursos em ordem</h2>
+        <div>
+            <a href="https://www.youtube.com/watch?v=8mei6uVttho&list=PLHz_AreHm4dmSj0MHol_aoNYCSGFqvfXV&pp=iAQB"><img src="https://i.ytimg.com/vi/8mei6uVttho/hqdefault.jpg?sqp=-oaymwEXCOADEI4CSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLDS-jKbmJlflaW0-z2QjjAp8sz42g" alt="Curso de algoritmos" target="_blank" id="video0"></a>
+
+            <a href="https://www.youtube.com/watch?v=S9uPNppGsGo&list=PLHz_AreHm4dlKP6QQCekuIPky1CiwmdI6"><img src="https://i.ytimg.com/vi/EBrZSrB8eUw/hqdefault.jpg?sqp=-oaymwEXCOADEI4CSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLAAFvyr4Sj7-zNFKo1MsYj1ut7__A" alt="Curso em python"id="video1"target="_blank"></a>
+            <a href="https://www.youtube.com/watch?v=xEKo29OWILE&list=PLHz_AreHm4dm7ZULPAmadvNhH6vk9oNZA&pp=iAQB"><img src="https://i.ytimg.com/vi/xEKo29OWILE/hqdefault.jpg?sqp=-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLAdQDUYjIeHXPLwNZKngmtqgHNCMA" alt="Curso git/github"id="video2"target="_blank">
+            
+                  <a href="https://www.youtube.com/watch?v=Ofktsne-utM&list=PLHz_AreHm4dkBs-795Dsgvau_ekxg8g1r"><img src="https://i.ytimg.com/vi/Ofktsne-utM/hqdefault.jpg?sqp=-oaymwEXCOADEI4CSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLAW-uZ3WDnVgBFHVN_ktAIx36DJ-w" alt="Curso banco de dados" target="_blank" id="video3"></a>
+        </div>
+    </main>
+    
+</body>
+</html>
