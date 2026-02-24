@@ -8,6 +8,7 @@
         * {
             margin: 0;
             padding: 0;
+            box-sizing: border-box;
         }
         h1, h2 {
             color: white;
@@ -22,12 +23,17 @@
             background-color: #7778A4;
             padding: 20px;
               width: 100%;
-            max-width: 320px;
+            max-width: 1000px;
             margin: auto;
             box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
             border-bottom-left-radius: 20px;
             border-bottom-right-radius: 20px;
         }
+        @media (max-width: 600px) {
+            main {
+                padding: 10px;
+            }
+                }
         div {
             display: flex;
             justify-content: center;
@@ -38,7 +44,7 @@
         #video0,#video1, #video2, #video3 {
             border: 2px solid #333;
             width: 100%;
-            max-width: 280px;
+            max-width: 350px;
             margin: 3px;
             border-radius: 10px;
             transition: transform 0.5s ease;
@@ -47,8 +53,7 @@
             transform: scale(1.05);
             border: yellow solid 2px;
         }
-        body {
-          
+        body,hmtl {
             background-color: bisque;
         }
     </style>
